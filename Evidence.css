@@ -1,0 +1,196 @@
+html {
+    background:#45e682;
+}
+
+body {
+    background: #d2dde7;
+    font: 14px Poppins;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 150px 0px 0px 0px;
+    min-width: 960px;
+    text-align: center;
+}
+
+#inputBox {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 5px 50px 10px 50px;
+    
+    flex-direction: column;
+    box-sizing: border-box;
+    font-weight: bold;
+    justify-content: left;
+    
+}
+
+article h1 {
+    text-align: center;
+    padding-left: 200px;
+    padding-bottom: 20px;
+}
+
+form p1 {
+    margin-right: 125px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+form p2 {
+    margin-right: 120px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+form p1 span {
+    margin-left: 149px;
+}
+
+form p2 span {
+    margin-left: 165px;
+}
+
+form input {
+    box-sizing: border-box;
+    height: 20px;
+    width: auto;
+    margin-right: 7px;
+    margin-left: 7px;
+}
+
+.hlava {
+    float: left;
+    width: 110px;
+    padding-left: 80px;
+    margin-left: 0px;
+    
+    
+}
+
+
+body > header {
+    height: 100px;
+    width: 100%;
+    background: #00386B;
+    color: white;
+    display: flex;
+    justify-content:space-evenly;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    text-align: left;
+}
+
+#logo {
+    height: 40px;
+    margin: auto 0 auto 0px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    background-size: 40px 40px;
+
+
+}
+
+#logo > * {
+    margin: 0 0 0 50px;
+}
+
+#logo h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    color: white;
+}
+
+#logo h1 span {
+    font-weight: normal;
+    text-transform: lowercase;
+}
+
+#logo small {
+    font-size: 0.85em;
+}
+
+nav ul {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+}
+
+nav ul li {
+    padding: 0 25px;
+    margin: 0 5px;
+    font-size: 1em;
+    line-height: 4.3em;
+}
+
+nav ul a {
+    color: white;
+    padding: 8px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    justify-content: flex-start;
+}
+
+nav ul a:hover, 
+.aktivni a {
+    border-bottom: 2px solid #22e76e
+}
+
+article h2 {
+    margin-top: 30px;
+}
+
+table {
+    background: white;
+    border-collapse: collapse;
+    margin:auto;
+    width: 62%;
+  }
+
+
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+
+  #submit {
+    background: #467cce;
+    color: white;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 0px;
+    padding: 12px 25px;
+    border-radius: 10px;
+    justify-content: left;
+    border: 0px;
+}
+
+footer {
+    margin-top: 200px;
+    box-sizing: border-box;
+
+    align-content: center;
+    height: 100px;
+    color: #000000;
+    background: #45e682;
+    padding: 20px 0 0 0;
+  
+}
+
+footer a {
+    color: black;
+}
+
+  

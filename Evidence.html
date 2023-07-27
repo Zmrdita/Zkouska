@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evidence pojištění</title>
+    <link href="Evidence.css" rel="stylesheet">
+</head>
+<body>
+  <header> 
+    <div id="logo">
+      <h1>Pojištění<span>app</span></h1>
+        <small>evidence</small>
+    </div>
+
+    <nav class = "navigace">
+        <ul>
+            <li class="aktivni"><a href="Evidence.html">Domů</a></li>
+            <li><a href="pojistenci.html">Pojištěnci</a></li>
+            <li><a href="oaplikaci.html">O aplikaci</a></li>
+        </ul>
+    </nav>
+</header>
+
+<article>
+  <div id="inputBox">
+  <h1>Nový pojištěnec</h1>
+  <img src="hlava.png" class="hlava" alt="logo nový pojištěnec"> 
+  <form id="addInsuredForm">
+      <p1>Jméno: <span>Příjmení: </span></p1><br>
+      <input type="text" id="firstName" required>
+      <input type="text" id="lastName" required><br>
+      <br>
+    <p2>Věk: <span>Telefon: </span></p2><br>
+      <input type="number" id="age" required>
+      <input type="number" id="phoneNumber" required><br>
+      <br>
+      <button id="submit">Uložit</button>
+</form>
+</div>
+    <h2>Seznam pojištěnců</h2>
+  <table id="insuredTable">
+    <tr>
+      <th>Name</th>
+      <th>Surname</th>
+      <th>Age</th>
+      <th>Phone Number</th>
+    </tr>
+  </table>
+</article>
+<footer>
+  Vytvořila &copy;Dita 2023 pro <a href="https://itnetwork.cz">itnetwork.cz</a>
+</footer>
+<script src="Evidence.js"></script>
+</body>
+</html>
